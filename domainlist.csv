@@ -1,21 +1,129 @@
 id,type,domain,enabled,date_added,date_modified,comment
-19,3,^(.+[-_.])??adse?rv(er?|ice)?s?[0-9]*[-.],1,1585426668,1608564394,
-20,3,^(.+[-_.])??ad[sxv]?[0-9]*[-_.],1,1585426668,1608564396,
-21,3,^(.+[-_.])??telemetry[-.],1,1585426668,1608564398,
-22,3,^(.+[-_.])??xn--,1,1585426668,1608564400,
-23,3,^adim(age|g)s?[0-9]*[-_.],1,1585426668,1608564401,
-24,3,^adtrack(er|ing)?[0-9]*[-.],1,1585426668,1608564403,
-25,3,^advert(s|is(ing|ements?))?[0-9]*[-_.],1,1585426668,1608564404,
-26,3,^aff(iliat(es?|ion))?[-.],1,1585426668,1608564405,
-27,3,^analytics?[-.],1,1585426668,1608564406,
-28,3,^banners?[-.],1,1585426668,1608564408,
-29,3,^beacons?[0-9]*[-.],1,1585426668,1608564427,
-30,3,^count(ers?)?[0-9]*[-.],1,1585426668,1608564421,
-31,3,^pixels?[-.],1,1585426668,1608564418,
-32,3,^stat(s|istics)?[0-9]*[-.],1,1585426668,1608564415,
-33,3,^track(ers?|ing)?[0-9]*[-.],1,1585426668,1608564413,
-34,3,^traff(ic)?[-.],1,1585426668,1608564412,
-35,3,^(ads|logs|cloudservices).roku.com$,1,1585426668,1608564411,
-36,0,track.shipstation.com,1,1586220825,1589684086,"USPS tracking"
-37,0,ib.huluim.com,1,1593787890,1593787985,"Hulu scrubbing thumbnails"
-43,2,^beacons([0-9])?\.(gcp\.)?gvt([0-9])\.com$,1,1608398374,1608398374,"Fixes Google Meet buttons"
+1,0,clients4.google.com,1,1604426492,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+2,0,clients2.google.com,1,1604426505,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+3,0,s.youtube.com,1,1604426518,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+4,0,video-stats.l.google.com,1,1604426527,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+6,0,outlook.office365.com,1,1604426570,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+7,0,products.office.com,1,1604426578,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+8,0,c.s-microsoft.com,1,1604426586,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+9,0,i.s-microsoft.com,1,1604426592,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+10,0,login.live.com,1,1604426601,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+11,0,g.live.com,1,1604426609,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+13,0,ui.skype.com,1,1604426635,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+14,0,pricelist.skype.com,1,1604426642,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+15,0,apps.skype.com,1,1604426651,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+16,0,m.hotmail.com,1,1604426658,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+17,0,s.gateway.messenger.live.com,1,1604426668,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+18,0,sa.symcb.com,1,1604426679,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+19,0,officeclient.microsoft.com,1,1604426687,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+20,0,creative.ak.fbcdn.net,1,1604426701,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+21,0,external-lhr0-1.xx.fbcdn.net,1,1604426711,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+22,0,external-lhr1-1.xx.fbcdn.net,1,1604426721,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+23,0,external-lhr10-1.xx.fbcdn.net,1,1604426730,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+24,0,external-lhr2-1.xx.fbcdn.net,1,1604426738,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+25,0,external-lhr3-1.xx.fbcdn.net,1,1604426747,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+26,0,external-lhr4-1.xx.fbcdn.net,1,1604426758,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+27,0,external-lhr5-1.xx.fbcdn.net,1,1604426766,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+28,0,external-lhr6-1.xx.fbcdn.net,1,1604426775,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+29,0,external-lhr7-1.xx.fbcdn.net,1,1604426785,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+30,0,external-lhr8-1.xx.fbcdn.net,1,1604426795,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+31,0,external-lhr9-1.xx.fbcdn.net,1,1604426803,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+32,0,fbcdn-creative-a.akamaihd.net,1,1604426813,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+33,0,scontent-lhr3-1.xx.fbcdn.net,1,1604426826,1615144944,https://www.tylerburton.ca/2017/01/commonly-whitelisted-domains-for-pi-hole/
+36,0,plex.tv,1,1604427034,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+37,0,tvdb2.plex.tv,1,1604427044,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+38,0,pubsub.plex.bz,1,1604427056,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+39,0,proxy.plex.bz,1,1604427071,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+40,0,proxy02.pop.ord.plex.bz,1,1604427084,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+41,0,cpms.spop10.ams.plex.bz,1,1604427095,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+42,0,meta-db-worker02.pop.ric.plex.bz,1,1604427107,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+43,0,meta.plex.bz,1,1604427117,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+44,0,tvthemes.plexapp.com.cdn.cloudflare.net,1,1604427128,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+45,0,tvthemes.plexapp.com,1,1604427139,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+46,0,106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services,1,1604427164,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+47,0,meta.plex.tv,1,1604427172,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+48,0,cpms35.spop10.ams.plex.bz,1,1604427182,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+49,0,proxy.plex.tv,1,1604427192,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+50,0,metrics.plex.tv,1,1604427201,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+51,0,pubsub.plex.tv,1,1604427211,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+52,0,status.plex.tv,1,1604427219,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+53,0,www.plex.tv,1,1604427231,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+54,0,node.plexapp.com,1,1604427240,1615144944,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+55,0,nine.plugins.plexapp.com,1,1604427250,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+56,0,staging.plex.tv,1,1604427260,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+57,0,app.plex.tv,1,1604427270,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+58,0,o1.email.plex.tv,1,1604427280,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+59,0,o2.sg0.plex.tv,1,1604427326,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+60,0,dashboard.plex.tv,1,1604427337,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+61,0,gravatar.com,1,1604427348,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+62,0,thetvdb.com,1,1604427359,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+63,0,themoviedb.com,1,1604427369,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+64,0,services.sonarr.tv,1,1604427388,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+65,0,skyhook.sonarr.tv,1,1604427399,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+66,0,download.sonarr.tv,1,1604427411,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+67,0,apt.sonarr.tv,1,1604427419,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+68,0,forums.sonarr.tv,1,1604427427,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+69,0,placeholdit.imgix.net,1,1604427442,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+70,0,placehold.it,1,1604427452,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+71,0,itunes.apple.com,1,1604427465,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+72,0,s.mzstatic.com,1,1604427474,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+73,0,appleid.apple.com,1,1604427484,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+74,0,gfwsl.geforce.com,1,1604427493,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+75,0,connectivitycheck.android.com,1,1604427524,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+76,0,android.clients.google.com,1,1604427533,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+77,0,clients3.google.com,1,1604427542,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+78,0,connectivitycheck.gstatic.com,1,1604427552,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+79,0,msftncsi.com,1,1604427564,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+80,0,www.msftncsi.com,1,1604427573,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+81,0,ipv6.msftncsi.com,1,1604427582,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+82,0,captive.apple.com,1,1604427598,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+83,0,gsp1.apple.com,1,1604427607,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+84,0,www.apple.com,1,1604427622,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+85,0,www.appleiphonecell.com,1,1604427632,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+86,0,tracking-protection.cdn.mozilla.net,1,1604427650,1615144945,https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+87,0,ads-e-darwin.hulustream.com,1,1604432289,1615144945,https://www.reddit.com/r/pihole/comments/cd7rr7/had_to_whitelist_adsedarwinhulustreamcom_to_get/
+88,0,ads-v-darwin.hulu.com,1,1604432314,1615144945,https://www.reddit.com/r/pihole/comments/cd7rr7/had_to_whitelist_adsedarwinhulustreamcom_to_get/
+89,0,app-measurement.com,1,1604432929,1615144945,"Added from Query Log"
+90,0,ssl.google-analytics.com,1,1604432958,1615144945,"Added from Query Log"
+91,1,honestadvertisements.com,1,1604433113,1615144930,"Added from Query Log"
+92,1,secureanalytic.com,1,1604433119,1615144930,"Added from Query Log"
+93,1,track.neutraloppurtunity.com,1,1604433126,1615144930,"Added from Query Log"
+94,1,peanuttolerate.com,1,1604433130,1615144930,"Added from Query Log"
+95,1,blockscoolest.com,1,1604433133,1615144930,"Added from Query Log"
+96,1,incapabledroppingachievement.com,1,1604433138,1615144930,"Added from Query Log"
+97,1,diametertwelfthvending.com,1,1604433141,1615144930,"Added from Query Log"
+98,1,mobilenetworkscoring-pa.googleapis.com,1,1604433150,1615144930,"Added from Query Log"
+99,1,cdn.funkydaters.com,1,1604433196,1615144930,"Added from Query Log"
+100,1,my.funkydaters.com,1,1604433200,1615144930,"Added from Query Log"
+101,1,alexatracker.com,1,1604433204,1615144930,"Added from Query Log"
+102,1,funkydaters.com,1,1604433207,1615144930,"Added from Query Log"
+103,1,circumscribevetofurther.com,1,1604433210,1615144930,"Added from Query Log"
+104,1,drawbacksubdue.com,1,1604433215,1615144930,"Added from Query Log"
+105,1,roomimg.stream.highwebmedia.com,1,1604433241,1615144931,"Added from Query Log"
+106,1,cbjpeg.stream.highwebmedia.com,1,1604433246,1615144931,"Added from Query Log"
+107,1,roomlister.stream.highwebmedia.com,1,1604433251,1615144931,"Added from Query Log"
+108,1,hubt.pornhub.com,1,1604433310,1615144931,"Added from Query Log"
+109,1,media.trafficjunky.com,1,1604433326,1615144931,"Added from Query Log"
+110,1,r4---sn-a5mekney.googlevideo.com,1,1604433479,1615144931,"Added from Query Log"
+111,1,r4---sn-a5meknel.googlevideo.com,1,1604433484,1615144931,"Added from Query Log"
+112,1,ib.hulu.com,1,1604433887,1615144931,"Added from Query Log"
+113,1,dummy,1,1604460144,1615144931,"Added from Query Log"
+114,1,dummy.localdomain,1,1604460149,1615144931,"Added from Query Log"
+115,1,player.anyclip.com,1,1604460180,1615144931,"Added from Query Log"
+116,1,osb.samsungqbe.com,1,1604460207,1615144931,"Added from Query Log"
+118,1,lh3.googleusercontent.com,1,1605157697,1615144931,"Added from Query Log"
+119,1,e.joinhoney.com,1,1605157704,1615144931,"Added from Query Log"
+120,1,v.joinhoney.com,1,1605157738,1615144931,"Added from Query Log"
+121,1,www.directly.com,1,1605157784,1615144931,"Added from Query Log"
+122,1,s.joinhoney.com,1,1605157789,1615144931,"Added from Query Log"
+123,1,cdn.outbound.io,1,1605157814,1615144931,"Added from Query Log"
+124,1,iphonesubmissions.apple.com.akadns.net,1,1605236411,1615144931,"Added from Query Log"
+125,1,iphonesubmissions.apple.com,1,1605236418,1615144931,"Added from Query Log"
+126,1,www.xboxab.com,1,1605236433,1615144931,"Added from Query Log"
+127,1,dlassets-ssl.xboxlive.com,1,1605236438,1615144932,"Added from Query Log"
+128,1,livetileedge.dsx.mp.microsoft.com,1,1605236493,1615144932,"Added from Query Log"
+129,1,graph.facebook.com,0,1605635629,1615144932,"Added from Query Log"
+130,1,star.c10r.facebook.com,1,1605635640,1615144932,"Added from Query Log"
+131,0,lh3.googleusercontent.com,1,1607720291,1615144945,"Added from Query Log"
+132,0,graph.facebook.com,1,1611799661,1615144945,"Added from Query Log"
+133,0,www.anrdoezrs.net,1,1612233124,1615144945,ebates/Rakuten
