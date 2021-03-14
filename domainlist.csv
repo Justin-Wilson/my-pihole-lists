@@ -127,4 +127,3 @@ id,type,domain,enabled,date_added,date_modified,comment
 131,0,lh3.googleusercontent.com,1,1607720291,1615144945,"Added from Query Log"
 132,0,graph.facebook.com,1,1611799661,1615144945,"Added from Query Log"
 133,0,www.anrdoezrs.net,1,1612233124,1615144945,ebates/Rakuten
-134,1,test.au,1,1615746889,1615746889,"Testing Pi-Hole Sync"
