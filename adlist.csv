@@ -1,4 +1,3 @@
 id,address,enabled,date_added,date_modified,comment,date_updated
-1,https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts,1,1604426196,1615144930,"Migrated from /etc/pihole/adlists.list",1617447383
+1,https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts,1,1604426196,1615144930,"Migrated from /etc/pihole/adlists.list",1617535348
 2,https://mirror1.malwaredomains.com/files/justdomains,1,1604426196,1615144930,"Migrated from /etc/pihole/adlists.list",
-3,https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt,1,1617445849,1617445849,https://github.com/kboghdady/youTube_ads_4_pi-hole,1617447384
